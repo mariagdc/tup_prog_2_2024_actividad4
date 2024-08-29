@@ -55,6 +55,7 @@
     <Compile Include="Models\Circulo.cs" />
     <Compile Include="Models\Cuadrado.cs" />
     <Compile Include="Models\Figura.cs" />
+    <Compile Include="Models\Persona.cs" />
     <Compile Include="Models\Rectángulo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

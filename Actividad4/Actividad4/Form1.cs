@@ -69,6 +69,11 @@ namespace Actividad4
                 textBox1.Text += $"{c.Lado}";
             }
 
+            /*lista.Sort();
+        * int idx = lista.BinarySearch(new Persona(dni));
+        * Persona p = null;
+        * if (idx
+        */
 
         }
     }
