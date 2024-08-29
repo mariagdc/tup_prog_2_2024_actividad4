@@ -15,16 +15,16 @@ namespace Actividad4.Models
             
         }
 
-        public override double calcularArea() //double bas, double altura
-        {
-            double area = LadoA * LadoB;
-            return area;
-        }
-        public override double calcularPerimetro()
-        {
-            double peri = (LadoA * 2) + (LadoB * 2);
-            return peri;
-        }
+        //public double calcularArea() //double bas, double altura
+        //{
+        //    double area = LadoA * LadoB;
+        //    return area;
+        //}
+        //public double calcularPerimetro()
+        //{
+        //    double peri = (LadoA * 2) + (LadoB * 2);
+        //    return peri;
+        //}
 
     }
 }

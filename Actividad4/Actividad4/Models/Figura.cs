@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Actividad4.Models
 {
-    internal abstract class Figura
+    interface IFigura
     {
-        public  abstract double calcularArea();
-        public abstract double calcularPerimetro();
+        double calcularArea();
+        double calcularPerimetro();
+
+        string ToString();
+
+        int CompareTo(IFigura other);
     }
 }
